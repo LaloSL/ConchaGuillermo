@@ -1,0 +1,104 @@
+/* Estilos para las categorías y sus títulos */
+.categoria {
+    margin-bottom: 40px;
+}
+
+.categoria h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #333; /* Puedes cambiarlo al color que prefieras */
+}
+
+/* Estilos para la galería de productos */
+.galeria {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+/* Estilos para cada producto individual */
+.producto {
+    box-sizing: border-box;
+    width: calc(25% - 20px);
+    margin-bottom: 20px;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.producto img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px 5px 0 0;
+}
+
+.precio {
+    font-size: 18px;
+    color: #333; /* Puedes cambiarlo al color que prefieras */
+}
+
+
+ /* Estilos para el botón de inicio */
+ .button-container {
+    text-align: center;
+    margin-top: 1rem;
+  }
+  
+  .button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+  }
+  
+  .button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* footer */
+.classic-footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 40px;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.footer-logo img {
+    max-width: 100px;
+}
+
+.footer-nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-nav li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.footer-nav li a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+
+.footer-contact address {
+    font-style: normal;
+}
+
+.footer-contact a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+

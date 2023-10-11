@@ -1,0 +1,73 @@
+/* Estilos Generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  /* Estilos para el formulario */
+  .form-group {
+    margin-bottom: 1rem;
+  }
+  
+  .form-group label {
+    display: inline-block;
+    width: 100px;
+    font-weight: bold;
+    text-align: left; /* Cambiado de right a left */
+    margin-right: 10px;
+  }
+  
+  .form-group input,
+  .form-group textarea {
+    display: inline-block;
+    width: calc(100% - 120px);
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  /* Estilos para el botón de inicio */
+  .button-container {
+    text-align: center;
+    margin-top: 1rem;
+  }
+  
+  .button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+  }
+  
+  .button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Estilos para el footer */
+  .footer-contact,
+  .footer-logo {
+    margin: 10px;
+  }
+  
+  .footer-contact address,
+  .footer-logo img {
+    margin: 0;
+  }
+  

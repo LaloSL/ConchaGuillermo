@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Contacto</title>
+    <link rel="stylesheet" href="styleContacto.css">
+</head>
+
+<body>
+    <!-- formulario -->
+    <main>
+        <form action="procesar_contacto.php" method="POST">
+            <div class="form-group">
+                <label for="nombre">Nombre</label>
+                <input type="text" id="nombre" name="nombre" required>
+            </div>
+
+            <div class="form-group">
+                <label for="telefono">Telefono</label>
+                <input type="text" id="telefono" name="telefono" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+
+            <div class="form-group">
+                <label for="mensaje">Mensaje</label>
+                <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+            </div>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </main>
+
+     <!-- boton de inicio -->
+     <div class="button-container">
+        <a href="index.html" class="button">Inicio</a>
+    </div>
+      
+
+ 
+
+    <!-- footer -->
+
+    <footer class="classic-footer">
+        <div class="footer-contact">
+            <address>
+                <p><i class="fas fa-map-marker-alt"></i> Plaza Pringles</p>
+                <p><i class="fas fa-phone-alt"></i> Tel: <a href="tel:+123456789">26641234556</a></p>
+                <p><i class="fas fa-envelope"></i> Email: <a href="mailto:info@company.com">powergym@gym.com.ar</a></p>
+            
+            </address>
+        </div>
+    
+        <div class="footer-logo">
+            <img src="imagenes\logo.ico" alt="Logo Gym">
+        </div>
+    
+        
+    </footer>
+</body>
+
+</html>
