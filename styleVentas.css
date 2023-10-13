@@ -42,23 +42,23 @@
 
 
  /* Estilos para el botón de inicio */
- .button-container {
-    text-align: center;
-    margin-top: 1rem;
+ .button {
+    display: flex;
+    justify-content: center;
   }
   
-  .button {
+  .button1 {
+    display: inline-block;
+    padding: 10px 20px;
     background-color: #007bff;
     color: white;
-    padding: 10px 20px;
     text-decoration: none;
     border-radius: 5px;
-    display: inline-block;
+    border: none;
+    cursor: pointer;
   }
   
-  .button:hover {
-    background-color: #0056b3;
-  }
+  
   
   /* footer */
 .classic-footer {

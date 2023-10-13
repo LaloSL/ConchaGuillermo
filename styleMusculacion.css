@@ -1,0 +1,115 @@
+/* Estilizar el encabezado de la tabla */
+table th {
+    font-size: 24px;
+    background-color: #ddd;
+    padding: 10px;
+}
+
+table td {
+    font-size: 22px;
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+}
+
+h2 {
+    font-size: 28px;
+    text-align: center;
+}
+
+.profesor-musculacion {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 20px 0;
+    background-color: #f5f5f5;
+    margin-top: 30px;
+}
+
+.profesor-musculacion img {
+    width: 150px;
+    height: 150px;
+}
+
+.profesor-musculacion h3 {
+    font-size: 24px;
+    margin: 0;
+    color: #333;
+}
+
+.profesor-musculacion p {
+    font-size: 18px;
+    margin-top: 10px;
+    color: #666;
+}
+
+/* boton inicio */
+.button {
+    display: flex;
+    justify-content: center;
+  }
+  
+.button1 {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  
+ 
+
+/* footer */
+.classic-footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 40px;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.footer-logo img {
+    max-width: 100px;
+}
+
+.footer-nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-nav li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.footer-nav li a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer-nav li a:hover {
+    color: #ccc;
+}
+
+.footer-contact address {
+    font-style: normal;
+}
+
+.footer-contact a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
