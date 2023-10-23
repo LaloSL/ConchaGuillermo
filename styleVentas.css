@@ -1,3 +1,18 @@
+/* Botón "Novedades" en la esquina superior derecha */
+.boton-novedades {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    z-index: 999; /* Asegura que esté por encima de otros elementos */
+}
+
+
+
 /* Estilos para las categorías y sus títulos */
 .categoria {
     margin-bottom: 40px;
