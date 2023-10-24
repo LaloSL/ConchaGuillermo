@@ -1,3 +1,4 @@
+// array de imagenes
 let imagenes = [
     {
         "url": "imagenes/img1.webp",
