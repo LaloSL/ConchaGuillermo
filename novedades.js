@@ -14,8 +14,8 @@ let imagenes = [
     },
     {
         "url": "imagenes/img3.webp",
-        "nombre": "foto3 ",
-        "descripcion": "jfgsjdgfaskdjf"
+        "nombre": "Kit Entrenamiento En Casa",
+        "descripcion": "¡Vence el sedentarismo y adopta un estilo de vida saludable en la comodidad de tu hogar con tu propio gimnasio!"
 
     },
 ]
@@ -69,3 +69,12 @@ function posicionCarrusel() {
         }
     } 
 }
+
+// botón de inicio
+const botonInicio = document.querySelector(".button1");
+
+function volverInicio() {
+    window.location.href = "index.html";
+}
+
+botonInicio.addEventListener("click", volverInicio);
