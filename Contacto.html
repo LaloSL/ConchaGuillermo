@@ -11,31 +11,37 @@
 </head>
 
 <body>
-    <!-- formulario -->
-    <main>
-        <form action="procesar_contacto.php" method="POST">
-            <div class="form-group">
-                <label for="nombre">Nombre</label>
-                <input type="text" id="nombre" name="nombre" required>
-            </div>
+    <div class="formularioCont">
+        <form onsubmit="return validar()" id="myForm">
+            <h2 class="titleForm">Contacto</h2>
 
-            <div class="form-group">
-                <label for="telefono">Telefono</label>
-                <input type="text" id="telefono" name="telefono" required>
-            </div>
-            
-            <div class="form-group">
-                <label for="email">Email</label>
-                <input type="email" id="email" name="email" required>
-            </div>
+            <label for="nombre">Nombre completo: <span id="nombreError" class="error"></span></label>
+            <input type="text" id="nombre" name="nombre" placeholder="Ingresa tu nombre completo">
 
-            <div class="form-group">
-                <label for="mensaje">Mensaje</label>
-                <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
-            </div>
 
-            <button type="submit">Enviar</button>
+            <label for="apellido">Apellido: <span id="apellidoError" class="error"></span></label>
+
+            <input type="text" id="apellido" name="apellido" placeholder="Ingresa tu Apellido">
+
+
+            <label for="email">Correo electrónico: <span id="emailError" class="error"></span></label>
+            <input type="text" id="email" name="email" placeholder="xxxxxx@gmail.com">
+
+
+            <label for="celular">Número celular: <span id="celularError" class="error"></span></label>
+            <input type="number" id="celular" name="celular" placeholder="266*******">
+
+
+
+            <label for="pregunta">Pregunta y/o consulta:</label>
+            <textarea id="pregunta" name="pregunta" maxlength="300"></textarea>
+
+            <button type="submit" id="botonEnviar">Enviar</button>
+
         </form>
+        <div id="mensajes">
+        </div>
+    </div>
     </main>
 
       <!-- boton de inicio -->
@@ -46,24 +52,7 @@
 
  
 
-    <!-- footer -->
-
-    <footer class="classic-footer">
-        <div class="footer-contact">
-            <address>
-                <p><i class="fas fa-map-marker-alt"></i> Plaza Pringles</p>
-                <p><i class="fas fa-phone-alt"></i> Tel: <a href="tel:+123456789">26641234556</a></p>
-                <p><i class="fas fa-envelope"></i> Email: <a href="mailto:info@company.com">powergym@gym.com.ar</a></p>
-            
-            </address>
-        </div>
     
-        <div class="footer-logo">
-            <img src="imagenes\logo.ico" alt="Logo Gym">
-        </div>
-    
-        
-    </footer>
     <script src="contacto.js"></script>
 </body>
 
